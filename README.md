@@ -201,10 +201,10 @@ predictions = predict_ga(model_path, test_csv)
 Here’s a sample of how your inference CSV should look:
 
 ```
-study_id, ga
-KA-PC-002-1, 180
-NL-PC-087-1, 157
-PN-PC-090-1, 223
+study_id, site, predicted_ga
+KA-PC-002-1, Kenya, 180
+NL-PC-087-1, Nepal, 157
+PN-PC-090-1, Pakiastan, 223
 ```
 
 ---
